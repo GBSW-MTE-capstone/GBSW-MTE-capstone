@@ -1,0 +1,49 @@
+.header {
+  background-color: none;
+  margin: 0;
+  color: #121212;
+  font-size: 1.1em;
+  font-weight: 900;
+  padding: 10px 13px;
+  border-bottom: 1px solid #121212;
+  text-align: center;
+}
+.header :is(h2, ul, ul li) {
+  display: inline-block;
+}
+ul {
+  display: flex block;
+  min-width: 290px;
+  padding: 0px;
+}
+ul li {
+  margin: 0 15px;
+}
+h2 {
+  cursor: default;
+}
+li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+li:active {
+  color: rgb(255, 166, 0);
+}
+/* .header ul {
+  list-style: none;
+  padding: 7px 0;
+  margin: 0 5px;
+  margin-left: 13em;
+  float: inline-end;
+}
+.header ul li {
+  margin: 0 2em;
+} */
+@media screen and (max-width: 480px) {
+  .header {
+    font-size: 0.9em;
+  }
+  ul li {
+    margin: 0 10px;
+  }
+}
