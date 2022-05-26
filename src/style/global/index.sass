@@ -4,11 +4,28 @@ $breakpoint-mobile: 335px
 $breakpoint-tablet: 758px
 $breakpoint-desktop: 1024px
 
+html
+  &::-webkit-scrollbar
+    width: 8px
+    height: 8px
+    background: #ffffff
+
+  &::-webkit-scrollbar-thumb
+    border-radius: 3.5px
+    background-color: #ced4da
+
+    &:hover
+      background-color: #adb5bd
+
+  &::-webkit-scrollbar-track
+    background: #ffffff
+
 *
   font-family: 'Noto Sans KR', sans-serif
-
+h3
+  font-size: 1.4em
 a
-  &::before, &:visited
+  &:link, &:visited
     color: #121212
   &:hover, &:active,
     color: #9e9e9e
@@ -22,7 +39,8 @@ a
   & > div
     vertical-align: top
     ul
-      padding: 0 15px
+      padding: 0 30px
+      font-weight: 400
   .chapter
     margin: 3px 0
   .chapter-container
@@ -37,10 +55,25 @@ a
   .imgSquare
     width: 100%
   .text
+    font-size: 1.1em
     text-align: left
     display: inline-block
     width: fit-content
     margin: 0 16px
+    line-height: 2.7em
+.member-list
+  & > div
+    padding: 1%
+    display: inline-block
+    width: 18%
+    vertical-align: top
+    text-align: center
+    font-size: 1.3em
+    img
+      width: 100%
+      border-radius: 8px
+    p
+      margin: 5px 0
 @media (max-width: 810px)
   .container
     width: 100%

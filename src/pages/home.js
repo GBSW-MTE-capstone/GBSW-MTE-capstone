@@ -1,3 +1,4 @@
+import Footer from "../components/footer";
 import Header from "../components/header";
 import Intro from "../components/home/intro";
 import IntroTeam from "../components/home/introTeam";
@@ -24,6 +25,7 @@ const Home = () => {
         <Platform />
         <IntroTeam />
       </div>
+      {/* <Footer /> */}
     </div>
   );
 };
