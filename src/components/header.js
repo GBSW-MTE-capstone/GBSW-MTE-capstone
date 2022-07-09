@@ -6,12 +6,6 @@ const Header = () => {
       <h2 className={style.title}>
         MT(<span style={{ color: "#FFA600" }}>T</span>)E :
       </h2>
-      <ul>
-        <li>Home</li>
-        <li>News</li>
-        <li>Board</li>
-        <li>Metaverse</li>
-      </ul>
     </div>
   );
 };

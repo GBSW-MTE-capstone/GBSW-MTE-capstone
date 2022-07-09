@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/GBSW-MTE-capstone/static/css/main.9184cc9f.css",
-    "main.js": "/GBSW-MTE-capstone/static/js/main.e5c3e66c.js",
+    "main.css": "/GBSW-MTE-capstone/static/css/main.cd631652.css",
+    "main.js": "/GBSW-MTE-capstone/static/js/main.8535b390.js",
     "static/js/787.a1495bbe.chunk.js": "/GBSW-MTE-capstone/static/js/787.a1495bbe.chunk.js",
     "static/media/chc.jpg": "/GBSW-MTE-capstone/static/media/chc.de6e1531aa2794ea4785.jpg",
     "static/media/pmj.jpg": "/GBSW-MTE-capstone/static/media/pmj.3130c484712de2227c54.jpg",
     "static/media/logo.png": "/GBSW-MTE-capstone/static/media/logo.260ea9e92d1a4a31f222.png",
+    "static/media/db.png": "/GBSW-MTE-capstone/static/media/db.6d31a0968a1c36cbe66e.png",
     "static/media/ldj.jpg": "/GBSW-MTE-capstone/static/media/ldj.0379af894bbb3420f841.jpg",
     "index.html": "/GBSW-MTE-capstone/index.html",
-    "main.9184cc9f.css.map": "/GBSW-MTE-capstone/static/css/main.9184cc9f.css.map",
-    "main.e5c3e66c.js.map": "/GBSW-MTE-capstone/static/js/main.e5c3e66c.js.map",
+    "main.cd631652.css.map": "/GBSW-MTE-capstone/static/css/main.cd631652.css.map",
+    "main.8535b390.js.map": "/GBSW-MTE-capstone/static/js/main.8535b390.js.map",
     "787.a1495bbe.chunk.js.map": "/GBSW-MTE-capstone/static/js/787.a1495bbe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9184cc9f.css",
-    "static/js/main.e5c3e66c.js"
+    "static/css/main.cd631652.css",
+    "static/js/main.8535b390.js"
   ]
 }
